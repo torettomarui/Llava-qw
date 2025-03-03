@@ -1,0 +1,27 @@
+{  
+    "train_batch_size": 8,
+    "train_micro_batch_size_per_gpu":1,
+    "gradient_accumulation_steps": 1,  
+    "bfloat16": {  
+        "enabled": true  
+    },  
+    "zero_optimization": {  
+        "stage": 3
+    },  
+    "optimizer": {  
+        "type": "AdamW",  
+        "params": {  
+            "lr": 1e-6,  
+            "weight_decay": 0.01  
+        }  
+    },  
+    "scheduler": {
+        "type": "WarmupDecayLR",
+        "params": {
+          "warmup_min_lr": 0,
+          "warmup_max_lr": 1e-6,
+          "warmup_num_steps": 100,
+          "total_num_steps": 77856
+        }
+      }
+}
