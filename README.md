@@ -13,4 +13,4 @@ Llava-13b
 ![IMG_8371](https://github.com/user-attachments/assets/65079012-54ef-4b60-82a3-0ee04ab5f566)
 
 ## Demo
-You can access this model by huggingface.
+You can access this model by huggingface(https://huggingface.co/spaces/torettomarui/Llava-qw).
