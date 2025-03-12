@@ -1,5 +1,7 @@
 # Llava-qw
-A 8b multimodal large model based on Llava and qwen2.5-instruct. You can access this model by huggingface(https://huggingface.co/spaces/torettomarui/Llava-qw).
+A 8b multimodal large model based on Llava and qwen2.5-instruct. 
+
+You can access this model by huggingface(https://huggingface.co/spaces/torettomarui/Llava-qw).
 
 This multimodal is trained on the datasets same as Llava, but use different vision model and language model. This multimodel use InternViT as vision model and QW-2.5-instruct-7b as language model.
 
